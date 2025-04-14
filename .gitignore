@@ -1,0 +1,31 @@
+# .gitignore
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Logs & artifacts
+wandb/
+*.log
+runs/
+
+# Checkpoints
+*.pt
+*.ckpt
+
+# Jupyter/IPython
+.ipynb_checkpoints/
